@@ -34,6 +34,7 @@ class AddBook extends React.Component {
     }
 
     render(){
+      console.log(this.props);
       return (
         <form id="add-book" onSubmit={this.submitForm.bind(this)}>
             <div className="field">
